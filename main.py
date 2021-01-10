@@ -61,7 +61,7 @@ def start():
     print('------------------------------------')
     print(
         Fore.BLUE + Style.BRIGHT +
-        f"Create by ELVIN\nTranslate by Quessts\nPhone Number: {phone}\nNumber of rounds: {count} "
+        f"Create by ELVIN\nPhone Number: {phone}\nNumber of rounds: {count} "
         + Style.RESET_ALL)
     print(Fore.GREEN + '------------------------------------' +
           Style.RESET_ALL)
@@ -972,9 +972,8 @@ def menu():
     print(banner + Style.RESET_ALL)
     print(Fore.GREEN + '-------------------------------')
     print(Fore.GREEN +
-          '''Create by ELVIN\nTranslated by @Quessts\nTelegram: ''' +
-          Fore.CYAN + '''https://t.me/AK_47_Python\n''' + Fore.GREEN +
-          '''Chat:''' + Fore.CYAN + ''' https://teleg.run/SmsBomberAK''' +
+          '''Create by ELVIN\nTelegram: ''' +
+          Fore.CYAN + '''https://t.me/AK_47_Python\n''' + 
           Fore.GREEN + '''\nVersion 0.1.0\nLast update 19.10.2020''')
     print(Fore.GREEN + '-------------------------------')
     global phone
