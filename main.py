@@ -972,9 +972,7 @@ def menu():
     print(banner + Style.RESET_ALL)
     print(Fore.GREEN + '-------------------------------')
     print(Fore.GREEN +
-          '''Create by ELVIN\nTelegram: ''' +
-          Fore.CYAN + '''https://t.me/AK_47_Python\n''' + 
-          Fore.GREEN + '''\nVersion 0.1.0\nLast update 19.10.2020''')
+          '''Create by ELVIN\nVersion 0.1.0\nLast update 19.10.2020''')
     print(Fore.GREEN + '-------------------------------')
     global phone
     phone = input(Fore.RED + 'Phone Number: ' + Style.RESET_ALL)
